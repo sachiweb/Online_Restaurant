@@ -1,0 +1,246 @@
+/* all css goes here */
+body{
+    font-family: 'roboto', 'sans-serif';
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    box-shadow: 0px 4px 7px 4px rgb(25, 25, 25);
+    position: fixed;
+    width: 100%;
+    top: 0%;
+}
+nav ul a{
+    text-decoration: none;
+    color: white;
+    margin-inline: 30px;
+}
+nav button{
+    width: 80px;
+    height: 28px;
+    background-color: rgb(199, 0, 0);
+    color: white;
+    font-size: 18px;
+    border-radius: 2px;
+    border: none;
+}
+nav button:hover{
+    cursor: pointer;
+    background-color: transparent;
+    border: 3px solid yellow;
+}
+nav ul{
+    margin-right: 33px;
+}
+.logo{
+    margin-left: 22px;
+
+}
+.logo h1{
+    position: absolute;
+    top: -8px;
+    font-size: 33px;
+    font-family: 'courgette', cursive;
+    color: rgb(255, 0, 0);
+    border-radius: 3px;
+    border-bottom: 4px solid rgb(250, 255, 106);
+    border-bottom-right-radius: 22px;
+    border-bottom-left-radius: 22px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 175px;
+}
+.main .maintext h1{
+    font-size: 47px;
+}
+.maintext h2{
+    font-size: 33px;
+    color: rgb(94, 94, 245);
+}
+.maintext p{
+    color: silver;
+}
+.maintext button{
+    width: 140px;
+    height: 40px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 22px;
+}
+.maintext button:hover{
+    border: 3px solid red;
+    background-color: transparent;
+    cursor: pointer;
+}
+.main img{
+    width: 38%;
+}
+.head{
+    text-align: center;
+    margin-top: 45px;
+    padding: 75px;
+
+}
+.head span{
+    color: rgb(74, 74, 201);
+}
+.card{
+    display: flex;
+    justify-content: center;
+    margin-top: 44px;
+}
+.card .crd{
+    width: 370px;
+    margin-inline: 22px;
+    background-color: white;
+    color: black;
+    border-radius: 2%;
+}
+.crd img{
+    width: 100%;
+    border-radius: 2%;
+}
+.foodtext button{
+    width: 100px;
+    height: 30px;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+}
+.crd .foodtext{
+    padding: 22px;
+}
+.crd:hover{
+    background-color: rgb(42, 41, 41);
+    color: rgb(255, 255, 255);
+}
+.best{
+    display: flex;
+    width: 850px;
+    height: 350px;
+    background-color: #ffffff;
+    color: black;
+    margin-top: 33px;
+    margin-left: 25%;
+}
+.best img{
+    width: 400px;
+}
+.best .besttext{
+    padding: 22px;
+}
+.besttext a{
+    width: 100px;
+    height: 30px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+    border-radius: 2px;
+    border: none;
+    font-size: 18px;
+    padding: 4px;
+}
+.besttext img{
+    width: 140px;
+    height: 140px;
+    border-radius: 45%;
+}
+.order{
+    display: flex;
+    justify-content: center;
+}
+.ordertext i{
+    font-size: 187px;
+    color: red;
+}
+.ordertext i:hover{
+    color: blue;
+}
+.ordertext button{
+    width: 130px;
+    height: 36px;
+    background-color: rgb(195, 0, 91);
+    color: rgb(255, 255, 255);
+    border-radius: 2px;
+    border: none;
+    font-size: 18px;
+    
+}
+.ordertext button:hover{
+    cursor: pointer;
+}
+.ordertext{
+    margin-inline: 100px;
+}
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    color: rgb(0, 0, 0);
+    padding: 55px;
+    margin-top: 84px;
+}
+.last{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+/* login */
+.login{
+    width: 190px;
+    padding: 22px;
+    display: none;
+    background-color: white;
+    position: absolute;
+    margin-left: 81%;
+    top: 16%;
+    text-align: center;
+
+}
+.login input{
+    width: 170px;
+    padding: 4px;
+    border: 2px solid blue;
+    outline: none;
+    margin-top: 11px;
+}
+.login button{
+    width: 100px;
+    height: 30px;
+    background-color: rgb(72, 0, 255);
+    color: white;
+    font-size: 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 13px;
+}
+.login button:hover{
+    cursor: pointer;
+}
+
+.trackingmap{
+    margin-top: 100px;
+    display: none;
+   
+}
+.trackingmap h1{
+    margin-left: 40%;
+    color: rgb(0, 0, 255);
+}
+.trackingmap img{
+    width: 99%;
+    padding: 10px;
+}

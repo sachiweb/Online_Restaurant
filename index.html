@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delicious.</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Catamaran:wght@200&family=Courgette&family=Dancing+Script:wght@700&family=Edu+TAS+Beginner:wght@700&family=Lato:wght@300;900&family=Mukta:wght@700&family=Mulish:wght@300&family=Open+Sans&family=PT+Sans:ital,wght@1,700&family=Poppins:wght@300&family=Raleway:wght@100&family=Roboto&family=Roboto+Condensed:wght@700&family=Roboto+Slab&display=swap"  rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f30fac2c61.js" crossorigin="anonymous"></script>
+ </head>
+ <body>
+   <div class="container">
+      <!-- nav bar -->
+      <nav>
+         <div class="logo">
+            <h1>Delicious</h1>
+         </div>
+         <ul>
+            <a href="">Home</a>
+            <a id="foods" href="#food">food</a>
+            <a id="dishs" href="#dish">Best dishes</a>
+            <a id="orders" href="#order">Track order</a>
+            <button id="logbtn">Log in</button>
+         </ul>
+      </nav>
+      <!-- login -->
+       <div class="login">
+         <input type="text" placeholder="Enter Email" id="name">
+         <input type="password" placeholder="Enter Password" id="pass">
+         <button id="logedbtn">Log in</button>
+       </div>
+      <!-- main page -->
+       <div class="main">
+         <div class="maintext">
+            <h1>
+               Healthy Food For Wealthy <br>Mood
+            </h1>
+            <h2>
+               Upto 20% OFF
+            </h2>
+            <p>
+               made by 100% natural and refined products for your batter health <br>
+               order now to get instant 20% discount.
+            </p>
+            <button>Order Now</button>
+         </div>
+         <img src="assets/mainimg.jpg" alt="">
+       </div>
+      <!-- cards -->
+       <!-- 1st card -->
+      <div class="foodcards" id="food">
+         <div class="head">
+            <h1>Our <span>Foods</span></h1>
+         </div>
+         <div class="card">
+            <div class="crd">
+               <img src="assets/burger.jpg" alt="">
+               <div class="foodtext">
+                  <h2>Burger</h2>
+                  <p>Veg cooked burger, with sus and fries in it</p>
+                  <button>Order Now</button>
+               </div>
+            </div>
+            <div class="crd">
+               <img src="assets/fries.jpg" alt="">
+               <div class="foodtext">
+                  <h2>French fries</h2>
+                  <p>Veg cooked french fries, with sus and oil in it</p>
+                  <button>Order Now</button>
+               </div>
+            </div>
+            <div class="crd">
+               <img src="assets/pizza.jpg" alt="" height="53%">
+               <div class="foodtext">
+                  <h2>Pizza</h2>
+                  <p>Veg 8 inch green double layered pizza</p>
+                  <button>Order Now</button>
+               </div>
+            </div>
+         </div>
+       <!-- 2nd card -->
+         <div class="card">
+            <div class="crd">
+               <img src="assets/smallpizza.jpg" alt="" height="57%">
+               <div class="foodtext">
+                  <h2>Pizza with cocacola</h2>
+                  <p>Cooked Pizza, with sus and coca-cola with it</p>
+                  <button>Order Now</button>
+               </div>
+            </div>
+            <div class="crd">
+               <img src="assets/smallburger.jpg" alt="">
+               <div class="foodtext">
+                  <h2>Burger & fries</h2>
+                  <p>Veg cooked Burger with juice and fries </p>
+                  <button>Order Now</button>
+               </div>
+            </div>
+            <div class="crd">
+               <img src="assets/hotdog.jpg" alt="">
+               <div class="foodtext">
+                  <h2>Hotdog</h2>
+                  <p>spicy hot dog with extra cream and lots of fun</p>
+                  <button>Order Now</button>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- best dishes -->
+       <div class="dish" id="dish">
+         <div class="head">
+            <h1>Our Best <span>Dishes</span></h1>
+         </div>
+         <div class="best">
+            <img src="assets/mainimg.jpg" alt="">
+            <div class="besttext">
+               <h2>Best dishes ever</h2>
+               <img src="assets/chef1.jpg">
+               <p>Mr, willium is our main chef of the best dish cooker today</p>
+               <a href="">Order Now</a>
+            </div>
+         </div>
+
+         <div class="best">
+            <img src="assets/smallpizza.jpg" alt="">
+            <div class="besttext">
+               <h2>Best dishes ever</h2>
+               <img src="assets/chef2.jpg">
+               <p>Mr,andrew & Ms,zilla are our main chefs of the best dish</p>
+               <a href="https://google.com">Order Now</a>
+            </div>
+         </div>
+       </div>
+       <!-- track order -->
+      <div class="track" id="order">
+         <div class="head">
+            <h1>Track your <span>Order</span></h1>
+         </div>
+         <div class="order">
+            <div class="ordertext">
+               <i class="fa-solid fa-person-biking"></i>
+               <h2>Track your order here</h2>
+               <button id="tracking">Track here</button>
+            </div>
+            <img src="assets/map.jpg" alt="" width="30%" height="30%">
+         </div>
+      </div>
+      <!-- tracking map -->
+       <div class="trackingmap">
+         <div class="tracktext">
+            <h1>Live order tracking</h1>
+         </div>
+         <div>
+            <img src="assets/trackingmap.png" alt="">
+         </div>
+       </div>
+      <!-- footer -->
+       <div class="footer">
+         <div class="text">
+            <h2>About Us</h2>
+            <p>As one of India's best food selling platforms, we provide <br> 
+               healthy foods of good quality. Our platform also provides <br> 
+               home delivery and great customer support facility.
+         </div>
+         <div class="text">
+            <h2>Our Foods</h2>
+            <p>pizza</p>
+            <p>burger</p>
+            <p>french fries</p>
+            <p>hotdog</p>
+         </div>
+         <div class="text">
+            <h2>Customers</h2>
+            <p>service</p>
+            <p>relation</p>
+            <p>quality</p>
+            <p>price</p>
+         </div>
+         <div class="text">
+            <h2>Contact us</h2>
+            <p>A-33,khandagiri</p>
+            <p>bhubaneswar</p>
+            <p>odisha</p>
+            <p>india</p>
+         </div>
+      </div>
+     <!-- <div class="last">
+   <p>By continuing past this page, you agree to our Terms of Service, Cookie Policy, Privacy Policy and Content Policies. <br> 
+      All trademarks are properties of their respective owners. 2008-2024 © Zomato™ Ltd. All rights reserved.</p>
+     </div> -->
+   </div>
+   <script src="script.js"></script>
+ </body>
+</html>
